@@ -9,12 +9,19 @@
   <meta property="og:description" content="You're not here by chance. Le charisme s'apprend — attirez le respect et les opportunités grâce au Winner's Mindset.">
   <meta property="og:image" content="assets/hero-bg.jpg">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="theme-color" content="#FFFBEB">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preload" as="image" href="assets/hero-bg.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Outfit:wght@300..700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+  <a class="skip-link" href="#about" data-i18n="a11y.skip">Aller au contenu</a>
 
   <header class="site-header">
     <span class="brand">Mindset by Grace</span>
@@ -29,7 +36,7 @@
 
     <section class="hero" id="hero">
       <div class="hero-bg" aria-hidden="true">
-        <img src="assets/hero-bg.jpg" alt="" width="2048" height="1152">
+        <img src="assets/hero-bg.jpg" alt="" width="2048" height="1152" decoding="async">
       </div>
       <div class="hero-overlay" aria-hidden="true"></div>
       <div class="hero-inner">
@@ -45,7 +52,7 @@
         <div class="hero-portrait">
           <div class="halo" aria-hidden="true"></div>
           <div class="particles" aria-hidden="true"></div>
-          <img class="portrait" src="assets/grace-portrait.jpg" alt="Portrait de Grace" width="900" height="900">
+          <img class="portrait" src="assets/grace-portrait.jpg" alt="Portrait de Grace" width="900" height="900" fetchpriority="high" decoding="async">
         </div>
       </div>
     </section>
@@ -61,7 +68,7 @@
           <p class="signature" aria-hidden="true">— Grace</p>
         </div>
         <figure class="about-banner">
-          <img src="assets/about-mood.jpg" alt="Ambiance chaleureuse : carnet et café, pour un développement personnel intentionnel" width="1600" height="2400">
+          <img src="assets/about-mood.jpg" alt="Ambiance chaleureuse : carnet et café, pour un développement personnel intentionnel" width="1600" height="2400" loading="lazy" decoding="async">
         </figure>
       </div>
     </section>

@@ -6,6 +6,7 @@
     fr: {
       'meta.title': "Mindset by Grace — Vous n'êtes pas ici par hasard",
       'lang.label': 'Changer de langue',
+      'a11y.skip': 'Aller au contenu',
       'hero.eyebrow': 'Coach en développement personnel',
       'hero.title': "Vous n'êtes pas ici par hasard.",
       'hero.impossible': 'Impossible.',
@@ -31,6 +32,7 @@
     en: {
       'meta.title': "Mindset by Grace — You're not here by chance",
       'lang.label': 'Switch language',
+      'a11y.skip': 'Skip to content',
       'hero.eyebrow': 'Personal development coach',
       'hero.title': "You're not here by chance.",
       'hero.impossible': 'Impossible.',
