@@ -41,14 +41,14 @@ Les textes du site sont rédigés à partir de l'analyse de son profil public (p
 1. **Hero** — plein écran, asymétrique.
    - À gauche : eyebrow « Mindset by Grace », titre « Vous n'êtes pas ici par hasard. » suivi de *« Impossible. »* en italique, sous-titre de mission, bouton « Découvrir Grace » (défile vers À propos).
    - À droite : photo de profil ronde avec halo lumineux (élément signature, §4).
-   - Sélecteur FR/EN en haut à droite.
+   - Sélecteur FR/EN dans un en-tête fin, **fixe au défilement** (reste visible en permanence).
    - Mobile : empilé, photo au-dessus du texte.
-2. **À propos de Grace** — texte + photo ; citation mise en avant : *« Le respect et les opportunités ne se poursuivent pas. Ils s'attirent. »*
+2. **À propos de Grace** — texte + bannière YouTube (`channels4_banner.jpg`) en visuel large ; citation mise en avant : *« Le respect et les opportunités ne se poursuivent pas. Ils s'attirent. »*
 3. **Le Winner's Mindset — ses piliers** — 3 cartes non numérotées (les piliers ne sont pas une séquence) :
    - 🧠 Mindset de gagnant — devenir la meilleure version de soi-même.
    - 🧘 Le pouvoir du calme — la maîtrise de soi comme force.
    - 🧲 Attirer au lieu de poursuivre — respect & opportunités.
-4. **Retrouvez Grace** — boutons YouTube / TikTok / Facebook (liens réels ci-dessus), éventuel aperçu de la bannière.
+4. **Retrouvez Grace** — boutons YouTube / TikTok / Facebook (liens réels ci-dessus), sans aperçu de bannière (celle-ci est utilisée dans la section À propos).
 5. **Footer** — © Mindset by Grace, année courante, rappel du slogan.
 
 ## 4. Identité visuelle
@@ -108,7 +108,7 @@ grace/
 - **Zéro dépendance, zéro build** : HTML/CSS/JS vanilla, Google Fonts via `<link>`.
 - **Bilingue** : dictionnaires FR/EN dans `js/main.js` ; attributs `data-i18n` sur les éléments ; bascule instantanée ; choix mémorisé en `localStorage` ; **français par défaut** ; `<html lang>` mis à jour à chaque bascule.
 - **Accessibilité (qualité plancher)** : HTML sémantique (header/main/section/footer), responsive mobile-first, focus clavier visible, contrastes suffisants sur fond sombre, `prefers-reduced-motion` respecté, `alt` sur les images.
-- **SEO/partage** : `<title>`, meta description, balises Open Graph (titre, description, image = bannière).
+- **SEO/partage** : `<title>`, meta description, balises Open Graph (titre, description, image = bannière). Les URLs OG sont laissées en relatif pendant le développement et finalisées en absolu au déploiement.
 
 ## 7. Déploiement
 
