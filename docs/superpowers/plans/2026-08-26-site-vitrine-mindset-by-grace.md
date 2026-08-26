@@ -642,7 +642,8 @@ test('toutes les clés data-i18n du HTML existent dans les deux dictionnaires', 
 
 - [ ] **Step 2: Lancer les tests — vérifier l'échec**
 
-Run: `node --test tests/`
+Run: `node tests/i18n.test.cjs`
+(Note : `node --test tests/` échoue avec `spawn EPERM` dans le sandbox — exécuter le fichier de test directement.)
 Expected: FAIL — `Cannot find module '../js/main.js'`
 
 - [ ] **Step 3: Créer `js/main.js` avec ce contenu exact**
@@ -799,7 +800,7 @@ Expected: FAIL — `Cannot find module '../js/main.js'`
 
 - [ ] **Step 4: Lancer les tests — vérifier le succès**
 
-Run: `node --test tests/`
+Run: `node tests/i18n.test.cjs`
 Expected: PASS (3 tests)
 
 - [ ] **Step 5: Vérifier dans le navigateur**
@@ -835,7 +836,7 @@ Checklist :
 
 - [ ] **Step 2: Relancer les tests**
 
-Run: `node --test tests/`
+Run: `node tests/i18n.test.cjs`
 Expected: PASS (3 tests)
 
 - [ ] **Step 3: Corriger si besoin, puis commit final**
