@@ -9,23 +9,23 @@
       'hero.eyebrow': 'Coach en développement personnel',
       'hero.title': "Vous n'êtes pas ici par hasard.",
       'hero.impossible': 'Impossible.',
-      'hero.subtitle': "Je suis Grace. J'aide celles et ceux qui sont prêts à cesser de courir après le respect et les opportunités — et à les attirer, grâce au Winner's Mindset.",
+      'hero.subtitle': "Je suis Grace. J'aide celles et ceux qui sont prêts à cesser de courir après le respect et les opportunités — et à les attirer par le calme, le charisme et le Winner's Mindset.",
       'hero.cta': 'Découvrir Grace',
       'about.eyebrow': 'À propos',
       'about.title': 'Qui est Grace ?',
-      'about.p1': "Grace est une créatrice de contenu en développement personnel, active depuis 2024. À travers sa chaîne Mindset by Grace, elle partage un message simple et puissant : rien de ce que vous vivez n'est arrivé par hasard.",
-      'about.p2': "Sa mission : vous aider à devenir la meilleure version de vous-même et à adopter un mindset de gagnant — un développement personnel intentionnel, sans raccourcis ni formules magiques.",
+      'about.p1': "Grace est une créatrice de contenu en développement personnel, active depuis 2024. À travers Mindset by Grace, elle partage un message simple et puissant : le charisme n'est pas un don de naissance — c'est un état d'esprit qui s'apprend.",
+      'about.p2': "Sa mission : vous aider à devenir la meilleure version de vous-même — présence, calme, magnétisme. Plus de 80 000 personnes suivent déjà ses conseils pour développer un mindset de gagnant.",
       'about.quote': "« Le respect et les opportunités ne se poursuivent pas. Ils s'attirent. »",
       'pillars.eyebrow': "Le Winner's Mindset",
-      'pillars.title': 'Trois piliers pour tout changer',
-      'pillars.p1.title': 'Mindset de gagnant',
-      'pillars.p1.text': "Devenir la meilleure version de soi-même commence par une décision : penser, agir et se tenir comme quelqu'un qui a déjà gagné.",
+      'pillars.title': 'Trois piliers pour devenir magnétique',
+      'pillars.p1.title': "Le charisme s'apprend",
+      'pillars.p1.text': "Le charisme est un état d'esprit, pas un don de naissance. Penser, agir et se tenir comme une personne charismatique — cela se travaille, chaque jour.",
       'pillars.p2.title': 'Le pouvoir du calme',
-      'pillars.p2.text': 'Que vous soyez en colère, malheureux ou très heureux, gardez votre calme. La maîtrise de soi est la vraie force.',
+      'pillars.p2.text': "L'agitation et l'inconfort tuent le charisme. Que vous soyez en colère ou très heureux, gardez votre calme : la maîtrise de soi est votre plus grande force.",
       'pillars.p3.title': 'Attirer au lieu de poursuivre',
-      'pillars.p3.text': 'Cessez de courir après le respect et les opportunités. Travaillez sur vous, élevez votre standard — et laissez-les venir à vous.',
+      'pillars.p3.text': 'Cessez de courir après le respect et les opportunités. Élevez votre standard, incarnez votre valeur — et laissez-les venir à vous.',
       'social.title': 'Retrouvez Grace',
-      'social.subtitle': 'Chaque semaine, du contenu intentionnel pour nourrir votre mindset.',
+      'social.subtitle': 'Chaque semaine, du contenu intentionnel pour nourrir votre charisme et votre mindset.',
       'footer.slogan': "You're not here by chance."
     },
     en: {
@@ -34,26 +34,40 @@
       'hero.eyebrow': 'Personal development coach',
       'hero.title': "You're not here by chance.",
       'hero.impossible': 'Impossible.',
-      'hero.subtitle': "I'm Grace. I help those who are ready to stop chasing respect and opportunities — and start attracting them instead, through the Winner's Mindset.",
+      'hero.subtitle': "I'm Grace. I help those who are ready to stop chasing respect and opportunities — and start attracting them instead, through calm, charisma and the Winner's Mindset.",
       'hero.cta': 'Discover Grace',
       'about.eyebrow': 'About',
       'about.title': 'Who is Grace?',
-      'about.p1': 'Grace is a personal development content creator, active since 2024. Through her channel Mindset by Grace, she shares one simple, powerful message: nothing you are going through happened by chance.',
-      'about.p2': "Her mission: help you become the best version of yourself and adopt a winner's mindset — intentional personal development, with no shortcuts and no magic formulas.",
+      'about.p1': 'Grace is a personal development content creator, active since 2024. Through Mindset by Grace, she shares one simple, powerful message: charisma is not a gift — it is a mindset that can be learned.',
+      'about.p2': "Her mission: help you become the best version of yourself — presence, calm, magnetism. More than 80,000 people already follow her advice to build a winner's mindset.",
       'about.quote': '"Respect and opportunities are not chased. They are attracted."',
       'pillars.eyebrow': "The Winner's Mindset",
-      'pillars.title': 'Three pillars that change everything',
-      'pillars.p1.title': "Winner's mindset",
-      'pillars.p1.text': 'Becoming the best version of yourself starts with one decision: think, act and carry yourself like someone who has already won.',
+      'pillars.title': 'Three pillars to become magnetic',
+      'pillars.p1.title': 'Charisma can be learned',
+      'pillars.p1.text': 'Charisma is a mindset, not a birthright. Thinking, acting and carrying yourself like a charismatic person — that is something you build, every day.',
       'pillars.p2.title': 'The power of calm',
-      'pillars.p2.text': 'Whether you are angry, unhappy or overjoyed — stay calm. Self-mastery is the real strength.',
+      'pillars.p2.text': 'Restlessness and discomfort kill charisma. Whether you are angry or overjoyed, stay calm: self-mastery is your greatest strength.',
       'pillars.p3.title': 'Attract instead of chase',
-      'pillars.p3.text': 'Stop chasing respect and opportunities. Work on yourself, raise your standard — and let them come to you.',
+      'pillars.p3.text': 'Stop chasing respect and opportunities. Raise your standard, embody your worth — and let them come to you.',
       'social.title': 'Follow Grace',
-      'social.subtitle': 'Every week, intentional content to feed your mindset.',
+      'social.subtitle': 'Every week, intentional content to feed your charisma and your mindset.',
       'footer.slogan': "You're not here by chance."
     }
   };
+
+  /* Découpe le titre du hero en mots pour la révélation en cascade */
+  function wrapWords(el) {
+    var text = el.textContent.trim();
+    el.innerHTML = '';
+    text.split(/\s+/).forEach(function (word, i) {
+      var span = document.createElement('span');
+      span.className = 'word';
+      span.style.setProperty('--i', String(i));
+      span.textContent = word;
+      el.appendChild(span);
+      el.appendChild(document.createTextNode(' '));
+    });
+  }
 
   function applyLanguage(lang) {
     var dict = translations[lang] || translations.fr;
@@ -65,6 +79,8 @@
       var key = el.getAttribute('data-i18n');
       if (dict[key] !== undefined) el.textContent = dict[key];
     });
+    var titleLine = document.querySelector('.title-line');
+    if (titleLine) wrapWords(titleLine);
     document.querySelectorAll('[data-lang-option]').forEach(function (el) {
       el.classList.toggle('is-active', el.getAttribute('data-lang-option') === lang);
     });
