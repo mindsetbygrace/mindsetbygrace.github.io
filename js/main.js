@@ -25,6 +25,8 @@
       'pillars.p2.text': "L'agitation et l'inconfort tuent le charisme. Que vous soyez en colère ou très heureux, gardez votre calme : la maîtrise de soi est votre plus grande force.",
       'pillars.p3.title': 'Attirer au lieu de poursuivre',
       'pillars.p3.text': 'Cessez de courir après le respect et les opportunités. Élevez votre standard, incarnez votre valeur — et laissez-les venir à vous.',
+      'videos.eyebrow': 'Sur YouTube',
+      'videos.title': 'Ses dernières vidéos',
       'social.title': 'Retrouvez Grace',
       'social.subtitle': 'Chaque semaine, du contenu intentionnel pour nourrir votre charisme et votre mindset.',
       'footer.slogan': "You're not here by chance."
@@ -51,6 +53,8 @@
       'pillars.p2.text': 'Restlessness and discomfort kill charisma. Whether you are angry or overjoyed, stay calm: self-mastery is your greatest strength.',
       'pillars.p3.title': 'Attract instead of chase',
       'pillars.p3.text': 'Stop chasing respect and opportunities. Raise your standard, embody your worth — and let them come to you.',
+      'videos.eyebrow': 'On YouTube',
+      'videos.title': 'Her latest videos',
       'social.title': 'Follow Grace',
       'social.subtitle': 'Every week, intentional content to feed your charisma and your mindset.',
       'footer.slogan': "You're not here by chance."
