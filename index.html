@@ -12,21 +12,48 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://mindsetbygrace.github.io/">
   <meta name="theme-color" content="#FFFBEB">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preload" as="image" href="assets/hero-bg.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://i.ytimg.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Outfit:wght@300..700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Grace",
+    "alternateName": "Mindset by Grace",
+    "jobTitle": "Coach en développement personnel",
+    "url": "https://mindsetbygrace.github.io/",
+    "image": "https://mindsetbygrace.github.io/assets/grace-portrait.jpg",
+    "sameAs": [
+      "https://www.youtube.com/@MindsetbyGrace",
+      "https://www.tiktok.com/@mindsetbygrace__",
+      "https://www.facebook.com/people/Mindset-by-Grace/61588435420800/"
+    ]
+  }
+  </script>
 </head>
 <body>
 
   <a class="skip-link" href="#about" data-i18n="a11y.skip">Aller au contenu</a>
 
-  <header class="site-header">
-    <span class="brand">Mindset by Grace</span>
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#hero" aria-label="Mindset by Grace — accueil">
+      <img src="assets/channels4_profile.jpg" alt="" width="32" height="32">
+      <span>Mindset <em>by</em> Grace</span>
+    </a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <a href="#about" data-i18n="nav.about">À propos</a>
+      <a href="#pillars" data-i18n="nav.mindset">Le Mindset</a>
+      <a href="#videos" data-i18n="nav.videos">Vidéos</a>
+      <a href="#social" data-i18n="nav.social">La suivre</a>
+    </nav>
     <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Changer de langue">
       <span data-lang-option="fr">FR</span>
       <span class="lang-sep" aria-hidden="true">/</span>
@@ -41,6 +68,7 @@
         <img src="assets/hero-bg.jpg" alt="" width="2048" height="1152" decoding="async">
       </div>
       <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
       <div class="hero-inner">
         <div class="hero-text">
           <p class="eyebrow" data-i18n="hero.eyebrow">Coach en développement personnel</p>
@@ -49,15 +77,68 @@
             <em class="impossible" data-i18n="hero.impossible">Impossible.</em>
           </h1>
           <p class="hero-sub" data-i18n="hero.subtitle">Je suis Grace. J'aide celles et ceux qui sont prêts à cesser de courir après le respect et les opportunités — et à les attirer par le calme, le charisme et le Winner's Mindset.</p>
-          <a class="btn btn-primary" href="#about" data-i18n="hero.cta">Découvrir Grace</a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#videos" data-i18n="hero.cta">Voir ses vidéos</a>
+            <a class="btn btn-ghost" href="#about" data-i18n="hero.cta2">Découvrir Grace</a>
+          </div>
+          <div class="hero-proof">
+            <span class="hero-proof-avatars" aria-hidden="true">
+              <img src="assets/channels4_profile.jpg" alt="" width="36" height="36">
+              <span>YT</span><span>TT</span><span>FB</span>
+            </span>
+            <span data-i18n="hero.proof">Une nouvelle vidéo chaque semaine sur YouTube, TikTok &amp; Facebook</span>
+          </div>
         </div>
         <div class="hero-portrait">
           <div class="halo" aria-hidden="true"></div>
           <div class="particles" aria-hidden="true"></div>
-          <img class="portrait" src="assets/grace-portrait.jpg" alt="Portrait de Grace" width="900" height="900" fetchpriority="high" decoding="async">
+          <div class="arch">
+            <div class="arch-frame" aria-hidden="true"></div>
+            <img class="portrait" src="assets/grace-portrait.jpg" alt="Portrait de Grace" width="900" height="900" fetchpriority="high" decoding="async">
+          </div>
+          <!-- HERO:START -->
+          <div class="hero-chip">
+            <span class="hero-chip-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+            <span><strong data-count="20200">20,2 k</strong> <span data-i18n="hero.subs">abonnés</span></span>
+          </div>
+          <a class="hero-latest" href="https://www.youtube.com/watch?v=FS2eF-VJ5QI" target="_blank" rel="noopener" data-video-id="FS2eF-VJ5QI" data-video-type="video" data-published="2026-11-10T21:05:58.000Z">
+            <span class="hero-latest-thumb"><img src="https://i.ytimg.com/vi/FS2eF-VJ5QI/maxresdefault.jpg" alt="" width="1280" height="720" decoding="async"><span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span></span>
+            <span class="hero-latest-text">
+              <span class="hero-latest-label"><span class="live-dot" aria-hidden="true"></span><span data-i18n="hero.latest">Nouvelle vidéo</span></span>
+              <span class="hero-latest-title">Apprendre l’ANGLAIS a CHANGÉ ma VIE</span>
+            </span>
+          </a>
+          <!-- HERO:END -->
         </div>
       </div>
+      <a class="scroll-cue" href="#stats" aria-label="Défiler vers le contenu"><span></span></a>
     </section>
+
+    <section class="stats" id="stats" aria-label="La chaîne en chiffres">
+      <div class="stats-inner">
+        <!-- STATS:START -->
+          <div class="stat">
+            <span class="stat-value" data-count="20200">20,2 k</span>
+            <span class="stat-label" data-i18n="stats.subscribers">abonnés YouTube</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" data-count="1409541">1,4 M</span>
+            <span class="stat-label" data-i18n="stats.views">vues cumulées</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" data-count="26">26</span>
+            <span class="stat-label" data-i18n="stats.videos">vidéos publiées</span>
+          </div>
+        <!-- STATS:END -->
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Charisme</span><i>✦</i><span>Calme</span><i>✦</i><span>Magnétisme</span><i>✦</i><span>Winner's Mindset</span><i>✦</i><span>Confiance</span><i>✦</i><span>Standards élevés</span><i>✦</i>
+        <span>Charisme</span><i>✦</i><span>Calme</span><i>✦</i><span>Magnétisme</span><i>✦</i><span>Winner's Mindset</span><i>✦</i><span>Confiance</span><i>✦</i><span>Standards élevés</span><i>✦</i>
+      </div>
+    </div>
 
     <section class="about reveal" id="about">
       <div class="section-inner">
@@ -69,8 +150,15 @@
           <blockquote class="quote" data-i18n="about.quote">« Le respect et les opportunités ne se poursuivent pas. Ils s'attirent. »</blockquote>
           <p class="signature" aria-hidden="true">— Grace</p>
         </div>
-        <figure class="about-banner">
+        <figure class="about-visual">
+          <div class="about-frame" aria-hidden="true"></div>
           <img src="assets/grace-portrait.jpg" alt="Portrait de Grace, coach en développement personnel" width="900" height="900" loading="lazy" decoding="async">
+          <figcaption class="about-badge">
+            <span class="about-badge-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </span>
+            <span data-i18n="about.badge">Nouvelle vidéo chaque semaine</span>
+          </figcaption>
         </figure>
       </div>
     </section>
@@ -117,71 +205,310 @@
 
     <section class="videos reveal" id="videos">
       <div class="section-inner">
-        <p class="eyebrow" data-i18n="videos.eyebrow">Sur YouTube</p>
-        <h2 data-i18n="videos.title">Ses dernières vidéos</h2>
-        <div class="video-grid">
-          <a class="video-card" href="https://www.youtube.com/watch?v=T2tZa6r44nA" target="_blank" rel="noopener">
-            <span class="video-thumb">
-              <img src="assets/video-T2tZa6r44nA.jpg" alt="Miniature de la vidéo : Le charisme va changer ta vie" width="1280" height="720" loading="lazy" decoding="async">
-              <span class="video-duration">17:13</span>
-              <span class="video-play" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
-              </span>
-            </span>
-            <span class="video-title">Le charisme va changer ta vie (3 piliers indispensables)</span>
-          </a>
-          <a class="video-card" href="https://www.youtube.com/watch?v=Aia0-IQUjQE" target="_blank" rel="noopener">
-            <span class="video-thumb">
-              <img src="assets/video-Aia0-IQUjQE.jpg" alt="Miniature de la vidéo : Ces 5 soft skills vont te rendre magnétique" width="1280" height="720" loading="lazy" decoding="async">
-              <span class="video-duration">9:14</span>
-              <span class="video-play" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
-              </span>
-            </span>
-            <span class="video-title">Ces 5 soft skills vont te rendre magnétique</span>
-          </a>
-          <a class="video-card" href="https://www.youtube.com/watch?v=myFwlimYfew" target="_blank" rel="noopener">
-            <span class="video-thumb">
-              <img src="assets/video-myFwlimYfew.jpg" alt="Miniature de la vidéo : 10 signes que tu es enfin aligné avec ta vie" width="1280" height="720" loading="lazy" decoding="async">
-              <span class="video-duration">15:04</span>
-              <span class="video-play" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
-              </span>
-            </span>
-            <span class="video-title">10 signes que tu es enfin aligné·e avec ta vie</span>
-          </a>
-          <a class="video-card" href="https://www.youtube.com/watch?v=I2o5vrmEP2E" target="_blank" rel="noopener">
-            <span class="video-thumb">
-              <img src="assets/video-I2o5vrmEP2E.jpg" alt="Miniature de la vidéo : Donne-moi 7 minutes et tu seras capable de manifester tout ce que tu veux" width="1280" height="720" loading="lazy" decoding="async">
-              <span class="video-duration">7:14</span>
-              <span class="video-play" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
-              </span>
-            </span>
-            <span class="video-title">7 minutes pour manifester ce que tu veux</span>
-          </a>
-          <a class="video-card" href="https://www.youtube.com/watch?v=1mhRpydKukI" target="_blank" rel="noopener">
-            <span class="video-thumb">
-              <img src="assets/video-1mhRpydKukI.jpg" alt="Miniature de la vidéo : Donne-moi 30 minutes et tu ne douteras plus jamais de toi" width="1280" height="720" loading="lazy" decoding="async">
-              <span class="video-duration">28:08</span>
-              <span class="video-play" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg>
-              </span>
-            </span>
-            <span class="video-title">30 minutes pour ne plus jamais douter de toi</span>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="videos.eyebrow">Sur YouTube</p>
+            <h2 data-i18n="videos.title">Ses dernières vidéos</h2>
+          </div>
+          <a class="btn btn-youtube" href="https://www.youtube.com/@MindsetbyGrace?sub_confirmation=1" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6z"/></svg>
+            <span data-i18n="videos.subscribeBtn">S'abonner</span>
           </a>
         </div>
+        <!-- VIDEOS:START -->
+          <article class="video-featured">
+            <a class="video-featured-media" href="https://www.youtube.com/watch?v=FS2eF-VJ5QI" target="_blank" rel="noopener" data-video-id="FS2eF-VJ5QI" data-video-type="video" data-published="2026-11-10T21:05:58.000Z" aria-label="Regarder : Apprendre l’ANGLAIS a CHANGÉ ma VIE">
+              <img src="https://i.ytimg.com/vi/FS2eF-VJ5QI/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+              <span class="video-badge" data-i18n="videos.latest">Dernière vidéo</span>
+              <span class="video-duration">18:27</span>
+              <span class="video-play video-play--big" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+            </a>
+            <div class="video-featured-text">
+              <p class="video-meta"><time datetime="2026-11-10T21:05:58.000Z" data-date="2026-11-10T21:05:58.000Z">10 nov. 2026</time><span aria-hidden="true"> · </span><span data-views="7660">7,7 k vues</span></p>
+              <h3>Apprendre l’ANGLAIS a CHANGÉ ma VIE</h3>
+              <a class="btn btn-primary" href="https://www.youtube.com/watch?v=FS2eF-VJ5QI" target="_blank" rel="noopener" data-video-id="FS2eF-VJ5QI" data-video-type="video" data-published="2026-11-10T21:05:58.000Z" data-i18n="videos.watch">Regarder maintenant</a>
+            </div>
+          </article>
+          <div class="video-panel" data-panel="video">
+            <h3 class="panel-title"><span data-i18n="videos.tab.videos">Vidéos</span> <span class="tab-count">13</span></h3>
+            <div class="video-grid">
+              <a class="video-card" href="https://www.youtube.com/watch?v=VvSxGeJt0A0" target="_blank" rel="noopener" data-video-id="VvSxGeJt0A0" data-video-type="video" data-published="2026-11-01T19:00:39.000Z" style="--i:0">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/VvSxGeJt0A0/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">10:39</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Comment avoir (Vraiment) de l’impact ?</span>
+                <span class="video-meta"><time datetime="2026-11-01T19:00:39.000Z" data-date="2026-11-01T19:00:39.000Z">1 nov. 2026</time><span aria-hidden="true"> · </span><span data-views="4940">4,9 k vues</span></span>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=QNBZwRZL2Bk" target="_blank" rel="noopener" data-video-id="QNBZwRZL2Bk" data-video-type="video" data-published="2026-10-04T21:07:32.000Z" style="--i:1">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/QNBZwRZL2Bk/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">16:51</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">COMMENT SE FAIRE RESPECTER ? (7 CLÉS POUR INSPIRER LE RESPECT)</span>
+                <span class="video-meta"><time datetime="2026-10-04T21:07:32.000Z" data-date="2026-10-04T21:07:32.000Z">4 oct. 2026</time><span aria-hidden="true"> · </span><span data-views="37170">37,2 k vues</span></span>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=PKJ5QymAz7s" target="_blank" rel="noopener" data-video-id="PKJ5QymAz7s" data-video-type="video" data-published="2026-09-27T19:53:11.000Z" style="--i:2">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/PKJ5QymAz7s/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">11:23</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">TON HYGIÈNE PEUT TE FERMER OU T’OUVRIR DES PORTES (LES BASES DE L’HYGIÈNE)</span>
+                <span class="video-meta"><time datetime="2026-09-27T19:53:11.000Z" data-date="2026-09-27T19:53:11.000Z">27 sept. 2026</time><span aria-hidden="true"> · </span><span data-views="15935">15,9 k vues</span></span>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=-VQEIpPcXcM" target="_blank" rel="noopener" data-video-id="-VQEIpPcXcM" data-video-type="video" data-published="2026-09-20T19:16:19.000Z" style="--i:3">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/-VQEIpPcXcM/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">12:58</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">COMMENT AVOIR UNE AURA MAGNÉTIQUE ? (5 CLÉS POUR ATTIRER SANS FORCER)</span>
+                <span class="video-meta"><time datetime="2026-09-20T19:16:19.000Z" data-date="2026-09-20T19:16:19.000Z">20 sept. 2026</time><span aria-hidden="true"> · </span><span data-views="147782">148 k vues</span></span>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=5TgldxaPx7Y" target="_blank" rel="noopener" data-video-id="5TgldxaPx7Y" data-video-type="video" data-published="2026-09-13T18:20:12.000Z" style="--i:4">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/5TgldxaPx7Y/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">14:21</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">PRATIQUER (RÉELLEMENT) LE DÉVELOPPEMENT PERSONNEL EN 5 ÉTAPES</span>
+                <span class="video-meta"><time datetime="2026-09-13T18:20:12.000Z" data-date="2026-09-13T18:20:12.000Z">13 sept. 2026</time><span aria-hidden="true"> · </span><span data-views="14021">14 k vues</span></span>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=BqzMrgJBmps" target="_blank" rel="noopener" data-video-id="BqzMrgJBmps" data-video-type="video" data-published="2026-09-06T18:00:07.000Z" style="--i:5">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/BqzMrgJBmps/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">9:34</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">SE CONNAÎTRE VA TOUT CHANGER DANS TA VIE (5 AXES INDISPENSABLES)</span>
+                <span class="video-meta"><time datetime="2026-09-06T18:00:07.000Z" data-date="2026-09-06T18:00:07.000Z">6 sept. 2026</time><span aria-hidden="true"> · </span><span data-views="25712">25,7 k vues</span></span>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=sls7oarz0lk" target="_blank" rel="noopener" data-video-id="sls7oarz0lk" data-video-type="video" data-published="2026-08-30T18:00:15.000Z" style="--i:6" data-extra>
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/sls7oarz0lk/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">14:56</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">CHANGE TON MINDSET, CHANGE TA VIE</span>
+                <span class="video-meta"><time datetime="2026-08-30T18:00:15.000Z" data-date="2026-08-30T18:00:15.000Z">30 août 2026</time><span aria-hidden="true"> · </span><span data-views="14510">14,5 k vues</span></span>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=T2tZa6r44nA" target="_blank" rel="noopener" data-video-id="T2tZa6r44nA" data-video-type="video" data-published="2026-08-23T19:48:09.000Z" style="--i:7" data-extra>
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/T2tZa6r44nA/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">17:12</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">LE CHARISME VA CHANGER TA VIE (3 PILIERS INDISPENSABLES POUR ÊTRE CHARISMATIQUE)</span>
+                <span class="video-meta"><time datetime="2026-08-23T19:48:09.000Z" data-date="2026-08-23T19:48:09.000Z">23 août 2026</time><span aria-hidden="true"> · </span><span data-views="182372">182 k vues</span></span>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=myFwlimYfew" target="_blank" rel="noopener" data-video-id="myFwlimYfew" data-video-type="video" data-published="2026-08-16T20:00:05.000Z" style="--i:8" data-extra>
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/myFwlimYfew/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">15:03</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">10 signes que tu es enfin aligné·e avec ta vie</span>
+                <span class="video-meta"><time datetime="2026-08-16T20:00:05.000Z" data-date="2026-08-16T20:00:05.000Z">16 août 2026</time><span aria-hidden="true"> · </span><span data-views="17168">17,2 k vues</span></span>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=I2o5vrmEP2E" target="_blank" rel="noopener" data-video-id="I2o5vrmEP2E" data-video-type="video" data-published="2026-08-09T18:00:03.000Z" style="--i:9" data-extra>
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/I2o5vrmEP2E/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">7:13</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Donne-moi 7 minutes et tu seras capable de manifester tout ce que tu veux</span>
+                <span class="video-meta"><time datetime="2026-08-09T18:00:03.000Z" data-date="2026-08-09T18:00:03.000Z">9 août 2026</time><span aria-hidden="true"> · </span><span data-views="61699">61,7 k vues</span></span>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=Aia0-IQUjQE" target="_blank" rel="noopener" data-video-id="Aia0-IQUjQE" data-video-type="video" data-published="2026-08-02T18:00:14.000Z" style="--i:10" data-extra>
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/Aia0-IQUjQE/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">9:14</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Ces 5 Soft Skills Vont Te Rendre Magnétique (Personne N'en Parle)</span>
+                <span class="video-meta"><time datetime="2026-08-02T18:00:14.000Z" data-date="2026-08-02T18:00:14.000Z">2 août 2026</time><span aria-hidden="true"> · </span><span data-views="15477">15,5 k vues</span></span>
+              </a>
+              <a class="video-card" href="https://www.youtube.com/watch?v=1mhRpydKukI" target="_blank" rel="noopener" data-video-id="1mhRpydKukI" data-video-type="video" data-published="2026-07-26T18:00:10.000Z" style="--i:11" data-extra>
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/1mhRpydKukI/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration">28:08</span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Donne-moi 30 minutes et tu ne douteras plus jamais de toi</span>
+                <span class="video-meta"><time datetime="2026-07-26T18:00:10.000Z" data-date="2026-07-26T18:00:10.000Z">26 juil. 2026</time><span aria-hidden="true"> · </span><span data-views="59364">59,4 k vues</span></span>
+              </a>
+            </div>
+            <div class="video-more-wrap"><button type="button" class="btn btn-social video-more" hidden data-i18n="videos.more">Voir toutes les vidéos</button></div>
+          </div>
+          <div class="video-panel video-panel--shorts" data-panel="short">
+            <h3 class="panel-title"><span data-i18n="videos.tab.shorts">Shorts</span> <span class="tab-count">13</span></h3>
+            <div class="shorts-grid">
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/Ak37YSztIDk" target="_blank" rel="noopener" data-video-id="Ak37YSztIDk" data-video-type="short" data-published="2026-10-24T19:26:52.000Z" style="--i:0">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/Ak37YSztIDk/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="6837">6,8 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Visez la progression et non la perfection</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/JmdpLNqtOWo" target="_blank" rel="noopener" data-video-id="JmdpLNqtOWo" data-video-type="short" data-published="2026-10-23T17:53:41.000Z" style="--i:1">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/JmdpLNqtOWo/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="4054">4,1 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Il te faut 1 ou 2 proches comme ça dans ton entourage.</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/IdSu7qV-N2M" target="_blank" rel="noopener" data-video-id="IdSu7qV-N2M" data-video-type="short" data-published="2026-10-10T08:30:15.000Z" style="--i:2">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/IdSu7qV-N2M/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="8380">8,4 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">La réussite est d’abord intérieure.</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/LOFnZBw7SC0" target="_blank" rel="noopener" data-video-id="LOFnZBw7SC0" data-video-type="short" data-published="2026-10-05T15:44:57.000Z" style="--i:3">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/LOFnZBw7SC0/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="15761">15,8 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Comment attirer la chance ?</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/p7pQ0wscPoY" target="_blank" rel="noopener" data-video-id="p7pQ0wscPoY" data-video-type="short" data-published="2026-09-30T08:09:16.000Z" style="--i:4">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/p7pQ0wscPoY/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="52493">52,5 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Ce proverbe chinois va changer ta vie. Médite-le.</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/Wh_ztS-9l6A" target="_blank" rel="noopener" data-video-id="Wh_ztS-9l6A" data-video-type="short" data-published="2026-09-15T16:25:03.000Z" style="--i:5">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/Wh_ztS-9l6A/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="35643">35,6 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Un problème est Une solution.</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/KXltPAHAa7A" target="_blank" rel="noopener" data-video-id="KXltPAHAa7A" data-video-type="short" data-published="2026-09-04T19:00:07.000Z" style="--i:6">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/KXltPAHAa7A/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="29793">29,8 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Tout effort que l’on fournit finit toujours par payer.</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/_KMRqZf81JI" target="_blank" rel="noopener" data-video-id="_KMRqZf81JI" data-video-type="short" data-published="2026-09-02T19:38:02.000Z" style="--i:7">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/_KMRqZf81JI/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="33150">33,2 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Ayez des standards élevés !</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/_sQryEs6Lwk" target="_blank" rel="noopener" data-video-id="_sQryEs6Lwk" data-video-type="short" data-published="2026-08-31T11:11:02.000Z" style="--i:8">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/_sQryEs6Lwk/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="9020">9 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Comment retrouver confiance en soi ?</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/DM1oAy0qZRo" target="_blank" rel="noopener" data-video-id="DM1oAy0qZRo" data-video-type="short" data-published="2026-08-28T17:02:09.000Z" style="--i:9">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/DM1oAy0qZRo/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="27570">27,6 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Ne laisse jamais ton parcours professionnel ou tes études te détourner de ta passion.</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/OzR5izn_3ks" target="_blank" rel="noopener" data-video-id="OzR5izn_3ks" data-video-type="short" data-published="2026-08-12T09:58:58.000Z" style="--i:10">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/OzR5izn_3ks/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="309057">309 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">L’apparence compte !</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/ILrYpMQ2tUs" target="_blank" rel="noopener" data-video-id="ILrYpMQ2tUs" data-video-type="short" data-published="2026-08-11T17:45:24.000Z" style="--i:11">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/ILrYpMQ2tUs/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="260224">260 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">Le Secret pour être constant et régulier</span>
+              </a>
+              <a class="video-card video-card--short" href="https://www.youtube.com/shorts/rbwwoxAT9sM" target="_blank" rel="noopener" data-video-id="rbwwoxAT9sM" data-video-type="short" data-published="2026-07-28T16:08:53.000Z" style="--i:0">
+                <span class="video-thumb">
+                  <img src="https://i.ytimg.com/vi/rbwwoxAT9sM/oardefault.jpg" alt="" width="405" height="720" loading="lazy" decoding="async">
+                  <span class="video-duration video-views"><span data-views="13749">13,7 k vues</span></span>
+                  <span class="video-new" data-i18n="videos.new" hidden>Nouveau</span>
+                  <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+                </span>
+                <span class="video-title">« La timidité n’existe pas. » Une phrase qui provoque et dérange exprès.</span>
+              </a>
+            </div>
+          </div>
+          <p class="video-updated">
+            <span data-i18n="videos.updated">Mis à jour automatiquement le</span> <time datetime="2026-11-13T05:47:45.447Z" data-date="2026-11-13T05:47:45.447Z">13 nov. 2026</time>
+            · <a href="https://www.youtube.com/@MindsetbyGrace?sub_confirmation=1" target="_blank" rel="noopener" data-i18n="videos.subscribe">S'abonner à la chaîne</a>
+          </p>
+        <!-- VIDEOS:END -->
       </div>
     </section>
 
     <section class="social reveal" id="social">
       <div class="section-inner">
+        <p class="eyebrow" data-i18n="social.eyebrow">Rejoignez la communauté</p>
         <h2 data-i18n="social.title">Retrouvez Grace</h2>
         <p class="social-subtitle" data-i18n="social.subtitle">Chaque semaine, du contenu intentionnel pour nourrir votre charisme et votre mindset.</p>
-        <div class="social-buttons">
-          <a class="btn btn-social" href="https://www.youtube.com/@MindsetbyGrace" target="_blank" rel="noopener">YouTube</a>
-          <a class="btn btn-social" href="https://www.tiktok.com/@mindsetbygrace__" target="_blank" rel="noopener">TikTok</a>
-          <a class="btn btn-social" href="https://www.facebook.com/people/Mindset-by-Grace/61588435420800/" target="_blank" rel="noopener">Facebook</a>
+        <div class="social-grid">
+          <a class="social-card" href="https://www.youtube.com/@MindsetbyGrace" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6z"/></svg>
+            <span class="social-name">YouTube</span>
+            <span class="social-handle">@MindsetbyGrace</span>
+            <span class="social-desc" data-i18n="social.yt">Vidéos longues &amp; Shorts</span>
+          </a>
+          <a class="social-card" href="https://www.tiktok.com/@mindsetbygrace__" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M19.6 6.7a4.8 4.8 0 0 1-3.8-4.2V2h-3.4v13.6a2.9 2.9 0 0 1-5.2 1.7 2.9 2.9 0 0 1 3.2-4.5V9.3a6.3 6.3 0 0 0-5.4 10.7 6.3 6.3 0 0 0 10.8-4.4V8.7a8.2 8.2 0 0 0 4.8 1.5V6.8a4.8 4.8 0 0 1-1-.1z"/></svg>
+            <span class="social-name">TikTok</span>
+            <span class="social-handle">@mindsetbygrace__</span>
+            <span class="social-desc" data-i18n="social.tt">Conseils express au quotidien</span>
+          </a>
+          <a class="social-card" href="https://www.facebook.com/people/Mindset-by-Grace/61588435420800/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>
+            <span class="social-name">Facebook</span>
+            <span class="social-handle">Mindset by Grace</span>
+            <span class="social-desc" data-i18n="social.fb">La communauté et les échanges</span>
+          </a>
         </div>
       </div>
     </section>
@@ -189,9 +516,19 @@
   </main>
 
   <footer class="site-footer">
-    <p>© Mindset by Grace — <span id="year">2026</span></p>
     <p class="footer-slogan" data-i18n="footer.slogan">You're not here by chance.</p>
+    <p>© Mindset by Grace — <span id="year">2026</span></p>
   </footer>
+
+  <dialog class="player" id="player" aria-label="Lecteur vidéo">
+    <div class="player-inner">
+      <button class="player-close" type="button" aria-label="Fermer" data-i18n-label="player.close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <div class="player-frame"></div>
+      <a class="player-link" href="#" target="_blank" rel="noopener" data-i18n="player.open">Ouvrir sur YouTube</a>
+    </div>
+  </dialog>
 
   <script src="js/main.js"></script>
 </body>

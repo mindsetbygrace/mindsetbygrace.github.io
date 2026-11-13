@@ -1,0 +1,10 @@
+{
+  "name": "mindsetbygrace-site",
+  "private": true,
+  "description": "Site vitrine Mindset by Grace",
+  "scripts": {
+    "test": "node --test",
+    "update-videos": "node scripts/update-videos.mjs",
+    "render": "node scripts/update-videos.mjs --offline"
+  }
+}

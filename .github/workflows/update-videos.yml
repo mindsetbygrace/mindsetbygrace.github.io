@@ -1,0 +1,41 @@
+name: Mise à jour des vidéos YouTube
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'   # toutes les 6 heures
+  workflow_dispatch:          # bouton « Run workflow » dans l'onglet Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-videos
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Récupérer les vidéos de la chaîne
+        run: node scripts/update-videos.mjs
+
+      - name: Vérifier le site
+        run: node --test
+
+      - name: Publier si quelque chose a changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/videos.json index.html
+          if git diff --staged --quiet; then
+            echo "Aucune nouveauté."
+          else
+            git commit -m "chore: mise à jour automatique des vidéos YouTube"
+            git push
+          fi
