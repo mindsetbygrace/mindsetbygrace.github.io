@@ -1,151 +1,151 @@
 {
-  "updatedAt": "2026-11-22T19:38:42.960Z",
+  "updatedAt": "2026-11-23T07:35:55.420Z",
   "channel": {
     "id": "UCfDVuBlNTCCBB9S6nu3jGdQ",
     "handle": "MindsetbyGrace",
     "url": "https://www.youtube.com/@MindsetbyGrace",
-    "subscribers": 21300
+    "subscribers": 21400
   },
   "stats": {
-    "subscribers": 21300,
+    "subscribers": 21400,
     "videos": 14,
     "shorts": 13,
-    "views": 1516132
+    "views": 1514140
   },
   "videos": [
     {
       "id": "3zdEPMKnN4k",
       "type": "video",
       "title": "Le piège dans lequel on tombe tous sans s'en rendre compte",
-      "published": "2026-11-15T22:09:40.000Z",
+      "published": "2026-11-15T22:09:40+00:00",
       "duration": 927,
-      "views": 6629,
+      "views": 6691,
       "thumbnail": "https://i.ytimg.com/vi/3zdEPMKnN4k/maxresdefault.jpg"
     },
     {
       "id": "FS2eF-VJ5QI",
       "type": "video",
       "title": "Apprendre l’ANGLAIS a CHANGÉ ma VIE",
-      "published": "2026-11-10T21:05:58.000Z",
-      "duration": 1107,
-      "views": 28196,
+      "published": "2026-11-10T21:05:58+00:00",
+      "duration": 1108,
+      "views": 28563,
       "thumbnail": "https://i.ytimg.com/vi/FS2eF-VJ5QI/maxresdefault.jpg"
     },
     {
       "id": "VvSxGeJt0A0",
       "type": "video",
       "title": "Comment avoir (Vraiment) de l’impact ?",
-      "published": "2026-11-01T19:00:39.000Z",
-      "duration": 639,
-      "views": 5270,
+      "published": "2026-11-01T19:00:39+00:00",
+      "duration": 640,
+      "views": 5281,
       "thumbnail": "https://i.ytimg.com/vi/VvSxGeJt0A0/maxresdefault.jpg"
     },
     {
       "id": "Ak37YSztIDk",
       "type": "short",
       "title": "Visez la progression et non la perfection",
-      "published": "2026-10-24T19:26:52.000Z",
+      "published": "2026-10-24T19:26:52+00:00",
       "duration": 133,
-      "views": 9177,
+      "views": 9294,
       "thumbnail": "https://i.ytimg.com/vi/Ak37YSztIDk/oardefault.jpg"
     },
     {
       "id": "JmdpLNqtOWo",
       "type": "short",
       "title": "Il te faut 1 ou 2 proches comme ça dans ton entourage. #développementpersonnel",
-      "published": "2026-10-23T17:53:41.000Z",
+      "published": "2026-10-23T17:53:41+00:00",
       "duration": 135,
-      "views": 4881,
+      "views": 4907,
       "thumbnail": "https://i.ytimg.com/vi/JmdpLNqtOWo/oardefault.jpg"
     },
     {
       "id": "IdSu7qV-N2M",
       "type": "short",
       "title": "La réussite est d’abord intérieure. #selfimprovement #successmindset",
-      "published": "2026-10-10T08:30:15.000Z",
+      "published": "2026-10-10T08:30:15+00:00",
       "duration": 89,
-      "views": 9136,
+      "views": 9186,
       "thumbnail": "https://i.ytimg.com/vi/IdSu7qV-N2M/oardefault.jpg"
     },
     {
       "id": "LOFnZBw7SC0",
       "type": "short",
       "title": "Comment attirer la chance ? #développementpersonnel #motivation",
-      "published": "2026-10-05T15:44:57.000Z",
+      "published": "2026-10-05T15:44:57+00:00",
       "duration": 84,
-      "views": 16870,
+      "views": 16939,
       "thumbnail": "https://i.ytimg.com/vi/LOFnZBw7SC0/oardefault.jpg"
     },
     {
       "id": "QNBZwRZL2Bk",
       "type": "video",
       "title": "COMMENT SE FAIRE RESPECTER ? (7 CLÉS POUR INSPIRER LE RESPECT)",
-      "published": "2026-10-04T21:07:32.000Z",
+      "published": "2026-10-04T21:07:32+00:00",
       "duration": 1011,
-      "views": 38389,
+      "views": 38445,
       "thumbnail": "https://i.ytimg.com/vi/QNBZwRZL2Bk/maxresdefault.jpg"
     },
     {
       "id": "p7pQ0wscPoY",
       "type": "short",
       "title": "Ce proverbe chinois va changer ta vie. Médite-le. #développementpersonnel",
-      "published": "2026-09-30T08:09:16.000Z",
+      "published": "2026-09-30T08:09:16+00:00",
       "duration": 159,
-      "views": 55584,
+      "views": 56084,
       "thumbnail": "https://i.ytimg.com/vi/p7pQ0wscPoY/oardefault.jpg"
     },
     {
       "id": "PKJ5QymAz7s",
       "type": "video",
       "title": "TON HYGIÈNE PEUT TE FERMER OU T’OUVRIR DES PORTES (LES BASES DE L’HYGIÈNE)",
-      "published": "2026-09-27T19:53:11.000Z",
-      "duration": 683,
-      "views": 16161,
+      "published": "2026-09-27T19:53:11+00:00",
+      "duration": 684,
+      "views": 16165,
       "thumbnail": "https://i.ytimg.com/vi/PKJ5QymAz7s/maxresdefault.jpg"
     },
     {
       "id": "-VQEIpPcXcM",
       "type": "video",
       "title": "COMMENT AVOIR UNE AURA MAGNÉTIQUE ? (5 CLÉS POUR ATTIRER SANS FORCER)",
-      "published": "2026-09-20T19:16:19.000Z",
-      "duration": 778,
-      "views": 161851,
+      "published": "2026-09-20T19:16:19+00:00",
+      "duration": 779,
+      "views": 162673,
       "thumbnail": "https://i.ytimg.com/vi/-VQEIpPcXcM/maxresdefault.jpg"
     },
     {
       "id": "Wh_ztS-9l6A",
       "type": "short",
       "title": "Un problème est Une solution. #motivation #développementpersonnel",
-      "published": "2026-09-15T16:25:03.000Z",
+      "published": "2026-09-15T16:25:03+00:00",
       "duration": 80,
-      "views": 37357,
+      "views": 37412,
       "thumbnail": "https://i.ytimg.com/vi/Wh_ztS-9l6A/oardefault.jpg"
     },
     {
       "id": "5TgldxaPx7Y",
       "type": "video",
       "title": "PRATIQUER (RÉELLEMENT) LE DÉVELOPPEMENT PERSONNEL EN 5 ÉTAPES",
-      "published": "2026-09-13T18:20:12.000Z",
-      "duration": 861,
-      "views": 14485,
+      "published": "2026-09-13T18:20:12+00:00",
+      "duration": 862,
+      "views": 14507,
       "thumbnail": "https://i.ytimg.com/vi/5TgldxaPx7Y/maxresdefault.jpg"
     },
     {
       "id": "BqzMrgJBmps",
       "type": "video",
       "title": "SE CONNAÎTRE VA TOUT CHANGER DANS TA VIE (5 AXES INDISPENSABLES)",
-      "published": "2026-09-06T18:00:07.000Z",
+      "published": "2026-09-06T18:00:07+00:00",
       "duration": 574,
-      "views": 26255,
+      "views": 26268,
       "thumbnail": "https://i.ytimg.com/vi/BqzMrgJBmps/maxresdefault.jpg"
     },
     {
       "id": "KXltPAHAa7A",
       "type": "short",
       "title": "Tout effort que l’on fournit finit toujours par payer.",
-      "published": "2026-09-04T19:00:07.000Z",
+      "published": "2026-09-04T19:00:07+00:00",
       "duration": 128,
-      "views": 30503,
+      "views": 30525,
       "thumbnail": "https://i.ytimg.com/vi/KXltPAHAa7A/oardefault.jpg"
     },
     {
@@ -154,7 +154,7 @@
       "title": "Ayez des standards élevés ! #développementpersonnel #motivation",
       "published": "2026-09-02T19:38:02.000Z",
       "duration": 113,
-      "views": 40621,
+      "views": 40000,
       "thumbnail": "https://i.ytimg.com/vi/_KMRqZf81JI/oardefault.jpg"
     },
     {
@@ -163,7 +163,7 @@
       "title": "Comment retrouver confiance en soi ?  #confianceensoi #développementpersonnel #motivation",
       "published": "2026-08-31T11:11:02.000Z",
       "duration": 142,
-      "views": 9253,
+      "views": 9200,
       "thumbnail": "https://i.ytimg.com/vi/_sQryEs6Lwk/oardefault.jpg"
     },
     {
@@ -171,8 +171,8 @@
       "type": "video",
       "title": "CHANGE TON MINDSET, CHANGE TA VIE",
       "published": "2026-08-30T18:00:15.000Z",
-      "duration": 896,
-      "views": 14792,
+      "duration": 897,
+      "views": 14000,
       "thumbnail": "https://i.ytimg.com/vi/sls7oarz0lk/maxresdefault.jpg"
     },
     {
@@ -181,7 +181,7 @@
       "title": "Ne laisse jamais ton parcours professionnel ou tes études te détourner de ta passion.",
       "published": "2026-08-28T17:02:09.000Z",
       "duration": 163,
-      "views": 27890,
+      "views": 27000,
       "thumbnail": "https://i.ytimg.com/vi/DM1oAy0qZRo/oardefault.jpg"
     },
     {
@@ -189,8 +189,8 @@
       "type": "video",
       "title": "LE CHARISME VA CHANGER TA VIE (3 PILIERS INDISPENSABLES POUR ÊTRE CHARISMATIQUE)",
       "published": "2026-08-23T19:48:09.000Z",
-      "duration": 1032,
-      "views": 184203,
+      "duration": 1033,
+      "views": 184000,
       "thumbnail": "https://i.ytimg.com/vi/T2tZa6r44nA/maxresdefault.jpg"
     },
     {
@@ -198,8 +198,8 @@
       "type": "video",
       "title": "10 signes que tu es enfin aligné·e avec ta vie",
       "published": "2026-08-16T20:00:05.000Z",
-      "duration": 903,
-      "views": 17408,
+      "duration": 904,
+      "views": 17000,
       "thumbnail": "https://i.ytimg.com/vi/myFwlimYfew/maxresdefault.jpg"
     },
     {
@@ -208,7 +208,7 @@
       "title": "L’apparence compte !",
       "published": "2026-08-12T09:58:58.000Z",
       "duration": 79,
-      "views": 336850,
+      "views": 338000,
       "thumbnail": "https://i.ytimg.com/vi/OzR5izn_3ks/oardefault.jpg"
     },
     {
@@ -217,7 +217,7 @@
       "title": "Le Secret pour être constant et régulier #discipline #consistency #motivation",
       "published": "2026-08-11T17:45:24.000Z",
       "duration": 150,
-      "views": 271191,
+      "views": 271000,
       "thumbnail": "https://i.ytimg.com/vi/ILrYpMQ2tUs/oardefault.jpg"
     },
     {
@@ -225,8 +225,8 @@
       "type": "video",
       "title": "Donne-moi 7 minutes et tu seras capable de manifester tout ce que tu veux",
       "published": "2026-08-09T18:00:03.000Z",
-      "duration": 433,
-      "views": 62512,
+      "duration": 434,
+      "views": 62000,
       "thumbnail": "https://i.ytimg.com/vi/I2o5vrmEP2E/maxresdefault.jpg"
     },
     {
@@ -235,7 +235,7 @@
       "title": "Ces 5 Soft Skills Vont Te Rendre Magnétique (Personne N'en Parle)",
       "published": "2026-08-02T18:00:14.000Z",
       "duration": 554,
-      "views": 15776,
+      "views": 15000,
       "thumbnail": "https://i.ytimg.com/vi/Aia0-IQUjQE/maxresdefault.jpg"
     },
     {
@@ -244,7 +244,7 @@
       "title": "« La timidité n’existe pas. » Une phrase qui provoque et dérange exprès. #confianceensoi",
       "published": "2026-07-28T16:08:53.000Z",
       "duration": 50,
-      "views": 14601,
+      "views": 14000,
       "thumbnail": "https://i.ytimg.com/vi/rbwwoxAT9sM/oardefault.jpg"
     },
     {
@@ -253,7 +253,7 @@
       "title": "Donne-moi 30 minutes et tu ne douteras plus jamais de toi",
       "published": "2026-07-26T18:00:10.000Z",
       "duration": 1688,
-      "views": 60291,
+      "views": 60000,
       "thumbnail": "https://i.ytimg.com/vi/1mhRpydKukI/maxresdefault.jpg"
     }
   ]
